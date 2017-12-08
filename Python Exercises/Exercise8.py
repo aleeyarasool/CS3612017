@@ -1,9 +1,4 @@
-
-# coding: utf-8
-
-# In[12]:
-
-
+#a)-g)
 a =[1,2,3,4,5,6]
 b=a
 b[1]=9
@@ -12,10 +7,7 @@ c
 c[2] = 13
 a
 
-
-# In[26]:
-
-
+#function set_first_elem_to_zero(1) which takes a list, sets the first entry to 0, and returns the list
 def set_first_elem_to_zero(l):
     l[0]=0
 
@@ -26,4 +18,3 @@ def main():
     
 if __name__== "__main__":
       main()   
-
