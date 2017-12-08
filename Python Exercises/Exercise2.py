@@ -1,20 +1,6 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
+#Explain the output of the following statements
 2000.3 ** 200
-
-
-# In[2]:
-
 
 1.0 + 1.0 - 1.0
 
-
-# In[3]:
-
-
 1.0 + 1.0e20 - 1.0e20
-
