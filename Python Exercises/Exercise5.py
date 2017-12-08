@@ -1,9 +1,4 @@
-
-# coding: utf-8
-
-# In[3]:
-
-
+#While loop to find the first 20 numbers divisible by 5,7 and 11
 number = 0
 x = 11
 
