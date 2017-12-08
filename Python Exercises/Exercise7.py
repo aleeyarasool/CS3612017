@@ -1,30 +1,15 @@
-
-# coding: utf-8
-
-# In[21]:
-
-
-#7a
+#7a: prints element of a list
 list = [1,2,3,4,5]
 list
 
-
-# In[19]:
-
-
-#7b
+#7b: prints elements of a list in reverse
 list = [1,2,3,4,5]
 list.reverse()
 list
 
-
-# In[37]:
-
-
-#7c
+#7c: returns the number of elements in a list
 list = [1,2,3,4,5]
 counter = 0;
 for i in list:
     counter = counter +1;
 print(counter)
-
