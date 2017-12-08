@@ -1,9 +1,4 @@
-
-# coding: utf-8
-
-# In[4]:
-
-
+#takes a list with numbers and uses iteration and recursion to return the product of all elements in the list
 #iterative method
 def iteration(x):
     i= 1;
