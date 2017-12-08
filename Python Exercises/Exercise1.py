@@ -1,38 +1,7 @@
-
-# coding: utf-8
-
-# In[4]:
-
-
+#Exercise 1: Find the output of each statement and explain.
 5/3
-
-
-# In[5]:
-
-
 5%3
-
-
-# In[6]:
-
-
 5.0/3
-
-
-# In[7]:
-
-
 5.0/3
-
-
-# In[8]:
-
-
 5/3.0
-
-
-# In[9]:
-
-
 5.2%3
-
