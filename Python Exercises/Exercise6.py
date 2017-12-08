@@ -1,10 +1,5 @@
 
-# coding: utf-8
-
-# In[11]:
-
-
-#6a
+#6a: Write function is_prime(n) that returns True only if n is prime
 def is_prime(n):
     if(n == 1):
         return False
@@ -15,11 +10,7 @@ def is_prime(n):
         return True
 print(is_prime(6))
 
-
-# In[ ]:
-
-
-#6b
+#6b: Updates is_prime(n) to use the 6k+/-1 rule
 def is_prime(n):
     plus = 6n+1;
     minus = 6n-1;
@@ -34,11 +25,7 @@ def is_prime(n):
         if()
 print(is_prime(6))
 
-
-# In[ ]:
-
-
-#6c
+#6c: returns all primes up to n
 def is_prime(n):
     i=5;
     w=2;
@@ -49,10 +36,6 @@ def is_prime(n):
         w=5-w
     return True    
 is_prime(13)                          
-
-
-# In[ ]:
-
 
 #6d print the first n primes
 def prime(n):
