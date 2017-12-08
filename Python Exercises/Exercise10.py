@@ -1,9 +1,4 @@
-
-# coding: utf-8
-
-# In[47]:
-
-
+#Uses matplotlib to plot f(x)=sin^2(x-2)e^(-x^2)
 get_ipython().magic('matplotlib inline')
 from matplotlib import pyplot as plot
 import numpy as np
