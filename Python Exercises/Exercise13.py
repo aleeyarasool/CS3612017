@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[118]:
-
-
 import re
 email = []
 with open("C:/Users/Aleeya/Documents/CS361PROG/emails.txt") as file:
@@ -15,4 +9,3 @@ with open("C:/Users/Aleeya/Documents/CS361PROG/emails.txt") as file:
             print(email)
             line = file.readline() 
             counter += 1           
-
