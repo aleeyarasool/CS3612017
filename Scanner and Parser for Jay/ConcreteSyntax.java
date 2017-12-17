@@ -295,7 +295,7 @@ public class ConcreteSyntax {
 		// WhileStatement --> while ( Expression ) Statement
 		Loop l = new Loop();	
 
-		match("while);
+		match("while");
 		match("(");
 		l.test = expression();
 		match(")");
