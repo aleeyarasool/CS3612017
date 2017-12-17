@@ -2,8 +2,7 @@
  * @author Christelle
  * 
  */
-import java.io.*;
-import java.util.*;
+
 public class ScannerDemo {
 
 	private static String file = "prog2.jay";  //change this file path for each file run
