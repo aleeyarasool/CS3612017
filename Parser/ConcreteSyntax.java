@@ -295,16 +295,11 @@ public class ConcreteSyntax {
 		// WhileStatement --> while ( Expression ) Statement
 		Loop l = new Loop();	
 
-		Expression test;
-		Statement body;
-
-		token = input.nextToken();
+		match("while);
 		match("(");
-		token = input.nextToken();
 		l.test = expression();
 		match(")");
-		token = input.nextToken();
-		l.body = statements();
+		l.body = statement();
 
 		return l;
 	}
