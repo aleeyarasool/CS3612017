@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.*;
 public class ScannerDemo {
 
-	private static String file = "C:\\Users\\Aleeya\\workspace\\ParserScannerOriginal\\src\\prog2.jay";  //change this file path for each file run
+	private static String file = "prog2.jay";  //change this file path for each file run
 	private static int counter = 1;
 
 	public static void main(String args[]) throws Exception {
